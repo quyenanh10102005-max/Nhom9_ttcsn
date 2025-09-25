@@ -6,6 +6,17 @@
   display: flex;
   justify-content: center;
 }
+
+.gb{
+  background-color:rgb(0, 0, 0) ;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100%;
+}
 body{
     margin: 0;
      body {
@@ -208,3 +219,33 @@ color: #007bff;
   height: 400px;        
   object-fit: cover;   
 }
+
+
+footer
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px;
+  align-items:flex-start;
+}
+
+.hotline
+{
+  font-size: smaller;
+  
+}
+.hotline h1,h2{
+  font-size: small;
+}
+.lien_ket
+{
+  display: flex;
+  align-items: center;
+  margin-top: 110px; 
+  gap: 10px; 
+}
+
+.lien_ket i{
+  font-size: 30px;
+}
+
