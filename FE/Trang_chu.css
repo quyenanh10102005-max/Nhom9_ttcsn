@@ -104,20 +104,19 @@ body{
       position: absolute;
       z-index: 9999;
       top: 40px; 
-      left: 0;
+      left: -10px;
       background: #cfcdcdd2;
       list-style: none;
       padding: 0px;
       margin: 0;
       border: 1px solid #ddd;
-      
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      width:130px
+      width:140px
       
     }
     .header_main_menu li a {
     display: block;      
-    padding: 10px 15px;     
+    padding: 0px 0px;     
     text-decoration: none;
     color: #000;
     }
@@ -227,6 +226,8 @@ footer
   justify-content: space-between;
   padding: 40px 60px;
   align-items:flex-start;
+  background: #cfcdcdd2;
+  height: fit-content;
 }
 
 .hotline
@@ -263,7 +264,7 @@ footer
 
 
 
-
+ /* Đăng nhập */
 
  .login-container {
             display: flex;
@@ -449,7 +450,7 @@ footer
             color: #721c24;
         }
 
-        /* Responsive */
+       
         @media (max-width: 768px) {
             .login-box {
                 padding: 30px 20px;
@@ -481,7 +482,7 @@ footer
 
 
 
-/* Register Container */
+/* Đăng ksy */
         .register-container {
             display: flex;
             justify-content: center;
@@ -723,7 +724,7 @@ footer
             color: #721c24;
         }
 
-        /* Gender and Date inputs */
+       
         .form-select {
             width: 100%;
             padding: 15px 45px;
@@ -740,7 +741,7 @@ footer
             box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
         }
 
-        /* Responsive */
+       
         @media (max-width: 768px) {
             .register-box {
                 padding: 30px 20px;
