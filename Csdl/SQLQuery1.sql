@@ -208,3 +208,18 @@ CREATE TABLE GioHang (
   NgayCapNhat DATETIME DEFAULT GETDATE(),
   MaKhachHang INT FOREIGN KEY REFERENCES KhachHang(MaKhachHang)
 );
+
+CREATE TABLE DanhGia (
+    MaDanhGia INT  PRIMARY KEY,
+    TieuDe VARCHAR(255),
+    NoiDung TEXT,
+    TrangThai VARCHAR(50),
+    NgayTao DATE,
+    MaSanPham INT,
+    MaThuongHieu INT,
+    MaKhachHang INT,
+    FOREIGN KEY (MaSanPham) REFERENCES SanPham(MaSanPham),
+    FOREIGN KEY (MaThuongHieu) REFERENCES ThuongHieu(MaThuongHieu),
+    FOREIGN KEY (MaKhachHang) REFERENCES KhachHang(MaKhachHang)
+);
+
